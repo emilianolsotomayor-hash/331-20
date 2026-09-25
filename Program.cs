@@ -1,28 +1,15 @@
 ﻿using System;
-namespace SE1
-
+// Espacio de nombres
+namespace CS1
 {
+    // Clase principal
     class Program
     {
-        static void Main(string[]args)
+        // Función principál
+        static void Main(string[] args)
         {
-            // 1
-            bool a;
-            int número;
-            // 3 Interpolación
-            a = true;
-            número = 10;
-            Console.WriteLine($"Booleano: {a}");
-            Console.WriteLine($"Número: {número}");
-
-            // 4 Incrementos y decrementos
-            int m = 0;
-            int n = -1;
-            // 5 Operador resto(modúlo)
-            int residuo = 40 % 16;
-            Console.WriteLine($"Residúo: {residuo}");
-            // 6 Operadores aritmeticos
-            double operación = 0;
-        }   operación = (( 30 + 8 -2)/2)*-1;
-    }
-}
+            //Sesión 4: Introducción a visual studio code.
+            Console.WriteLine("¡Programación en C#!");
+        } // Fin de la función principal
+    } // Término de la clase principal
+} // Término del espacio de nombres
